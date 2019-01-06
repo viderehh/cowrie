@@ -14,10 +14,8 @@ hpfeeds
 hpfeeds3
 
 # mysql
-# If this fails, see documentation /home/cowrie/cowrie/doc/sql/README.md
-#
+# If this fails, see documentation /home/cowrie/cowrie/docs/sql/README.md
 # There are two options, mysqlclient is newer and provides Python3 support.
-# MySQL-python is the classic option with Cowrie and has been tested.
 mysqlclient
 # MySQL-python
 
@@ -33,14 +31,15 @@ botocore
 # slack
 slackclient
 
-# splunklegacy
-# For more info, see documentation /home/cowrie/cowrie/doc/splunk/README.md
-splunk-sdk
-
 # influxdb
 influxdb
 
+# kafka
+afkak
+python-snappy
+
+
 # dblog_xmpp
-wokkel==18.0.0rc3
+wokkel==18.0.0rc5
 
 
